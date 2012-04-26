@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>Company</title>
+    <%= csrf_meta_tag %>
+  </head>
+  <body>
+    <%= render :partial => "layouts/header" %>
+    <%= yield %>
+    <%= render :partial => "layouts/menu" %>
+    <%= render :partial => "layouts/footer" %>
+  </body>
+</html>
